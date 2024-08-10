@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection with Classical and Quantum Machine Learning
+# Credit Card Fraud Detection with Quantum Machine Learning
 
 ## Project Overview
 
