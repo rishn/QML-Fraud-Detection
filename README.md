@@ -62,7 +62,7 @@ pip install numpy pandas scikit-learn matplotlib pennylane
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/rishn/QML-Fraud-Detection.git](https://github.com/rishn/QML-Fraud-Detection.git)
+    git clone https://github.com/rishn/QML-Fraud-Detection.git
     ```
 2. Navigate to the project directory:
     ```bash
