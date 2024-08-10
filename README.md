@@ -62,11 +62,11 @@ pip install numpy pandas scikit-learn matplotlib pennylane
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/credit-card-fraud-detection.git
+    git clone [https://github.com/rishn/QML-Fraud-Detection.git](https://github.com/rishn/QML-Fraud-Detection.git)
     ```
 2. Navigate to the project directory:
     ```bash
-    cd credit-card-fraud-detection
+    cd QML-Fraud-Detection
     ```
 3. Open the Jupyter Notebook:
     ```bash
