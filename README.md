@@ -1,43 +1,54 @@
-# Credit Card Fraud Detection Using Quantum Machine Learning
+# Credit Card Fraud Detection with Classical and Quantum Machine Learning
 
 ## Project Overview
 
-This project demonstrates the application of Quantum Machine Learning (QML) to detect fraudulent transactions from credit card transaction data. The goal is to compare the performance of classical machine learning models with quantum models to identify fraudulent transactions in the dataset.
+This repository contains a comprehensive credit card fraud detection project that utilizes both classical and quantum machine learning techniques. The project aims to identify fraudulent transactions using various machine learning models, including a Variational Quantum Classifier (VQC) to explore the potential of quantum computing in fraud detection.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Data Loading and Preprocessing](#data-loading-and-preprocessing)
-- [Classical Machine Learning Model](#classical-machine-learning-model)
+- [Dataset](#dataset)
+- [Classical Machine Learning Models](#classical-machine-learning-models)
 - [Quantum Machine Learning Model](#quantum-machine-learning-model)
 - [Results](#results)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
 
-Credit card fraud detection is a crucial task in financial services. This project explores how Quantum Machine Learning can be applied to improve fraud detection. We use the Kaggle `creditcard.csv` dataset for this purpose.
+Credit card fraud detection is a critical application of machine learning in financial services. With an increasing amount of transactions, detecting fraudulent activity efficiently and accurately is vital. This project explores various classical machine learning techniques and introduces a quantum machine learning approach to enhance fraud detection.
 
-## Data Loading and Preprocessing
+## Dataset
 
-The data is loaded from a CSV file, and preprocessing steps include:
+The dataset used for this project is the [Credit Card Fraud Detection dataset](https://www.kaggle.com/datasets?search=creditcard+fraud) from Kaggle. It contains anonymized credit card transactions with features related to transactions and labels indicating whether each transaction is fraudulent or not.
 
-- Scaling the features using `StandardScaler`
-- Splitting the dataset into training and testing sets
+## Classical Machine Learning Models
 
-## Classical Machine Learning Model
+We implemented and evaluated several classical machine learning models to compare their performance in detecting fraudulent transactions. The following models were tested:
 
-We use a Random Forest Classifier as a baseline classical machine learning model. The model is trained on the preprocessed data, and performance metrics such as confusion matrix and classification report are evaluated.
+- **Logistic Regression**: A baseline model used to assess the feasibility of fraud detection.
+- **MLP Classifier**: A neural network model used for more complex patterns.
+- **Support Vector Classifier (SVC)**: A model that finds the hyperplane that best separates the classes.
+- **Random Forest Classifier**: An ensemble method that combines multiple decision trees.
 
 ## Quantum Machine Learning Model
 
-A Quantum Support Vector Machine (QSVM) is employed for comparison. Using PennyLane and Qiskit, we prepare and run quantum kernels to train the QSVM model. We then evaluate its performance against the classical model.
+In addition to classical models, we explored a quantum machine learning approach using a Variational Quantum Classifier (VQC). Quantum Machine Learning leverages quantum computing's potential to handle complex data structures and potentially improve prediction accuracy.
+
+### Variational Quantum Classifier (VQC)
+
+The VQC is a hybrid quantum-classical algorithm that optimizes a quantum circuit's parameters to classify data. It involves:
+
+1. **Quantum Data Encoding**: Encoding classical data into quantum states.
+2. **Quantum Circuit Design**: Creating a parameterized quantum circuit.
+3. **Training**: Using a classical optimizer to find the best parameters for the quantum circuit.
+4. **Classification**: Applying the trained quantum circuit to classify new data.
 
 ## Results
 
-The performance of both the classical and quantum models is compared using metrics such as accuracy, precision, recall, and F1 score. Results and insights are presented to evaluate the effectiveness of quantum approaches in fraud detection.
+The performance of the models was evaluated using accuracy, precision, recall, and F1-score metrics.
+The VQC demonstrated competitive performance compared to classical models, indicating that quantum approaches are a promising area for future research.
 
 ## Installation
 
