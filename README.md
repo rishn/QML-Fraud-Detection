@@ -55,7 +55,7 @@ The VQC demonstrated competitive performance compared to classical models, indic
 To set up the project, you need to install the required libraries. Use the following command:
 
 ```bash
-pip install numpy pandas scikit-learn matplotlib pennylane
+pip install numpy pandas matplotlib scikit-learn qiskit qiskit-machine-learning qiskit_algorithms 
 ```
 
 ## Usage
