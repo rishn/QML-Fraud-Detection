@@ -20,7 +20,7 @@ Credit card fraud detection is a critical application of machine learning in fin
 
 ## Dataset
 
-The dataset used for this project is the [Credit Card Fraud Detection dataset](https://www.kaggle.com/datasets?search=creditcard+fraud) from Kaggle. It contains anonymized credit card transactions with features related to transactions and labels indicating whether each transaction is fraudulent or not.
+The dataset used for this project is the [Credit Card Fraud Detection dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) from Kaggle. It contains anonymized credit card transactions with features related to transactions and labels indicating whether each transaction is fraudulent or not.
 
 ## Classical Machine Learning Models
 
