@@ -13,7 +13,6 @@ This repository contains a comprehensive credit card fraud detection project tha
 - [Results](#results)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Introduction
 
