@@ -49,6 +49,10 @@ The VQC is a hybrid quantum-classical algorithm that optimizes a quantum circuit
 The performance of the models was evaluated using accuracy, precision, recall, and F1-score metrics.
 The VQC demonstrated competitive performance compared to classical models, indicating that quantum approaches are a promising area for future research.
 
+<p align="center">
+  <img src="https://github.com/rishn/QML-Fraud-Detection/blob/main/screenshots/vqc_performance.png?raw=true" alt="Quantum Model" />
+</p>
+
 ## Installation
 
 To set up the project, you need to install the required libraries. Use the following command:
@@ -67,10 +71,12 @@ pip install numpy pandas matplotlib scikit-learn qiskit qiskit-machine-learning 
     ```bash
     cd QML-Fraud-Detection
     ```
-3. Open the Jupyter Notebook:
+3. Extract the dataset from the zip file ```creditcard.zip```.
+
+4. Open the Jupyter Notebook:
     ```bash
     jupyter notebook
     ```
-4. Run the notebook cells to execute the project code.
+5. Run the notebook cells to execute the project code.
 
 
